@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-/* *{
-	font-family: 'Times New Roman', Times, serif;
-} */
-
 
 body{
 	display:flex;
 	justify-content:center;
-	font-family: "Poppins",serif;
+	font-family: "Poppins",sans-serif;
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
 }
 .parent-wraper{
 	display:flex;
@@ -16,8 +15,8 @@ body{
 	justify-content:flex-start;
 	flex-direction:column;
 	width: 540px;
-	/* background-color: #D3D3D3; */
 	border-radius: 10px;
+	border: 1px solid black;
 }
 .navbar{
 	display:flex;
@@ -70,17 +69,20 @@ img{
 
 .quote{
 	margin-top: 15px;
-	/* border: 1px solid black; */
 	height: 110px;
 	
 }
 .quote > p{
 	padding-left: 15px;
-	font: weight 900px;
+	font-weight:  bold;
+	line-height: 1.6; 
+	margin:8px 0 18px 20px;
+	font-family: sans-serif;
 }
 
 .quote > hr{
-	margin-top: 50px;
+	margin-top: 50px; 
+	width:150px;
 }
 .download{
 	background-color: violet;
@@ -131,34 +133,70 @@ a{
 h3{
 	margin:30px 0 18px 0;
 	align-self: center;
+	font-family: sans-serif;
 }
-hr{
-	border: top 2px; 
+.parent-wraper >hr{
+	border:top 2px; 
 	width:150px;
+	margin-bottom: 60px;
+	margin-top: 40px;
 }
-.Project_images{
-	height:600px;
-	width:300px;
-	align-self:center;
-	margin:15px;
+
+.Project{
+	background-color: #f0fdf4;
+	height: 100px;
+	width: 500px;
+	border: 1px solid black;
+	border-radius: 16px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	transform: translateY(2px);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	margin-left: 18px;
 }
-.caption{
-	align-self: center;
-	font-size: 15px;
-	font-weight: bold;
-	padding-bottom: 50px;
-	margin:0;
+
+.Project:hover{
+	transform: scale(1.02);
 }
-P{
-	margin:8px 0 18px 20px;
-	padding: 0px;
-	line-height: 1.4;
+
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup Content */
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+	position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
 	
-}
-h4{
-	margin:0 0 0 0;
-}
-ul{
-	margin:10px 0 18px 0;
-}
 
