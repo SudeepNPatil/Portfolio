@@ -378,7 +378,7 @@ h3{
 @media(max-width:480px){
 	.popup-content > h4{
 		width: 60vw;
-		margin-left: -1vw;
+		margin-left: 0.5vw;
 	}
 }
 .popup-content > h5 {
@@ -391,7 +391,7 @@ h3{
 @media(max-width:480px){
 	.popup-content > h5 {
 		width: 23vw;
-		margin-left: -1vw;
+		margin-left: 0.5vw;
 	}
 }
 .popup-content > p{
@@ -405,7 +405,7 @@ h3{
 @media(max-width:480px){
 	.popup-content > p{
 		width: 72vw;
-		margin-left: -1vw;
+		margin-left: 0.5vw;
 	}
 }
 .View_code{
