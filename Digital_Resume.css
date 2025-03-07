@@ -211,6 +211,7 @@ h3{
     justify-content: center;
     align-items: center;
 	margin: 0px;
+	z-index: 1000;
 } 
 
 /* Popup Content */
