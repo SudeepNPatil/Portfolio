@@ -9,8 +9,8 @@
     link.click();
     document.body.removeChild(link);
 
-});
- */
+}); */
+
 // Ensure JavaScript runs after DOM is loaded
 document.addEventListener("DOMContentLoaded", function some() {
     // Select elements AFTER the page has loaded

@@ -5,7 +5,6 @@ body{
 	display:flex;
 	justify-content:center;
 	font-family: "Poppins",sans-serif;
-	border: 1px solid black;
 	margin: 0;
 	padding: 0;
 }
@@ -16,7 +15,7 @@ body{
 	flex-direction:column;
 	width: 540px;
 	border-radius: 10px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 .navbar{
 	display:flex;
@@ -143,12 +142,11 @@ h3{
 }
 
 .Project{
-	background-color: #f0fdf4;
-	height: 100px;
+	background-color: whitesmoke;
+	height: auto;
 	width: 500px;
-	border: 1px solid black;
-	border-radius: 16px;
-	margin-bottom: 40px;
+	border-radius: 10px;
+	margin-bottom: 50px;
 	cursor: pointer;
 	transform: translateY(2px);
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -157,10 +155,52 @@ h3{
 }
 
 .Project:hover{
-	transform: scale(1.02);
+	transform: scale(1.04);
 }
 
-.popup {
+.Project1{
+		height: 240px;
+		width: 440px;
+		border-radius: 10px;
+		margin-left: 28px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+}
+.Technology{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.Technology >button{
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	border: 0px;
+	background-color: rgb(209, 112, 204);;
+	box-shadow: 10px rgb(182, 30, 174);
+	margin-top: 0px;
+}
+.Project > h4{
+	margin-top: 10px;
+	margin-left: 28px;
+	margin-bottom: 0px;
+}
+.Project > p{
+	margin-top: 10px;
+	margin-left: 28px;
+	margin-bottom: 0px;
+	font-size:smaller;
+	width: 435px;
+}
+.Project > h5{
+	margin-top: 10px;
+	margin-left: 28px;
+	margin-bottom: 0px;
+}
+
+ .popup {
     display: none; /* Initially hidden */
     position: fixed;
     top: 0;
@@ -170,33 +210,86 @@ h3{
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
     justify-content: center;
     align-items: center;
-}
+	margin: 0px;
+} 
 
 /* Popup Content */
-.popup-content {
+ .popup-content {
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    width: 300px;
+    width: 500px;
+	height: 500px;
+	margin: 0px;
     text-align: center;
 	position: relative;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease-in-out;
+} 
+.pop_petcare{
+	width: 450px;
+	height: 250px;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+.popup-content > h4{
+	width: 200px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 22px;
+	margin-bottom: 0px;
+}
+.popup-content > h5 {
+	width: 80px;
+	padding: 0px;
+	margin-top: 14px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+.popup-content > p{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 470px;
+	font-size: smaller;
+	margin-bottom: 25px;
+	text-align: start;
+}
+.View_code{
+	display: inline-block;
+	background-color: gray;
+	border-radius: 15px;
+	width: 225px;
+	height: 32px;
+	text-align: center;
+	color: black;
+	padding-top: 7px;
+	
+}
+.Live_demo{
+	display: inline-block;
+	background-color: blueviolet;
+	border-radius: 15px;
+	width: 225px;
+	height: 32px;
+	text-align: center;
+	color: black;
+	padding-top: 7px;
 }
 
 /* Close Button */
-.close-btn {
+ .close-btn {
     position: absolute;
-    right: 20px;
-    top: 15px;
-    font-size: 24px;
+    right: 15px;
+    top: 0px;
+    font-size: 30px;
     cursor: pointer;
 }
 
 /* Fade-in Animation */
-@keyframes fadeIn {
+ @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
     to { opacity: 1; transform: scale(1); }
-}
-	
+} 
+	 
 
