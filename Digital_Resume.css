@@ -111,7 +111,7 @@ img{
 }
 
 .quote{
-	margin-top: 15px;
+	margin-top: 25px;
 	text-align: center;
 	font-weight: bolder;
 	font-size: large;
@@ -121,16 +121,17 @@ img{
 }
 @media(max-width:480px){
 	.quote{
-		width: 100vw;
+		width: 95vw;
 		text-align: center;
 		line-height: 1.5;
-		margin-bottom: 8vw;
 		font-size: large;
+		margin-top: 20px;
+		margin-left: 1vw;
 	}
 }
 .break{
 	text-align: center;
-	margin-left: 200px;
+	margin-left: 250px;
 }
 @media(max-width:480px){
 	.break{
