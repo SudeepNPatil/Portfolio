@@ -41,7 +41,7 @@
     
 	</div>
 
-		<button class="download" id="download1">
+		<button class="download" id="resume">
 
 			Download CV
 
@@ -52,6 +52,24 @@
 	</footer>
 
 	</div>
+
+	<script>
+
+const down = document.getElementById("resume").addEventListener("click", function () {
+
+const link = document.createElement("a")
+
+link.href = "./SUDEEP N PATIL.CV.pdf";
+link.download = "SUDEEP N PATIL.CV.pdf";
+
+document.body.appendChild(link);
+link.click();
+document.body.removeChild(link);
+
+});
+
+
+	</script>
 
 	<script src="download.js"></script>
 	</body>
