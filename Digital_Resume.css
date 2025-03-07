@@ -41,7 +41,7 @@ body{
 	.navbar > .child1 {
 		position: absolute;
 		top: 10vw;
-		left: 4vw;
+		left: 6vw;
 	}
 	.navbar{
 		width: 100vw;
@@ -116,14 +116,18 @@ img{
 }
 @media(max-width:480px){
 	.quote{
-		width: 85vw;
+		width: 98vw;
 		text-align: center;
 		line-height: 1.5;
-		margin-bottom: 5vw;
+		margin-bottom: 8vw;
+		font-size: large;
+	}
+	.quote >p{
+		width: 80vw;
 	}
 
 	.quote > hr{
-		margin-left: 25vw;
+		 margin-left: 30vw; 
 	}
 }
 .quote > p{
