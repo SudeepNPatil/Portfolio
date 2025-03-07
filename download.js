@@ -1,4 +1,4 @@
-/* const down = document.getElementById("download1").addEventListener("click", function () {
+const down = document.getElementById("download1").addEventListener("click", function () {
 
     const link = document.createElement("a")
 
@@ -9,7 +9,7 @@
     link.click();
     document.body.removeChild(link);
 
-}); */
+});
 
 // Ensure JavaScript runs after DOM is loaded
 document.addEventListener("DOMContentLoaded", function some() {
