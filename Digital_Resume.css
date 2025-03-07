@@ -121,12 +121,12 @@ img{
 }
 @media(max-width:480px){
 	.quote{
-		width: 95vw;
 		text-align: center;
 		line-height: 1.5;
 		font-size: large;
 		margin-top: 20px;
-		margin-left: 1vw;
+		margin-left: vw;
+		padding: 10px;
 	}
 }
 .break{
