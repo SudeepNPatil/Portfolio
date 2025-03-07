@@ -112,35 +112,31 @@ img{
 
 .quote{
 	margin-top: 15px;
-	height: 110px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: large;
+	font-family: sans-serif;
+	line-height: 1.5; 
+	
 }
 @media(max-width:480px){
 	.quote{
-		width: 98vw;
+		width: 100vw;
 		text-align: center;
 		line-height: 1.5;
 		margin-bottom: 8vw;
 		font-size: large;
 	}
-	.quote >p{
-		width: 80vw;
-	}
-
-	.quote > hr{
-		 margin-left: 30vw; 
-	}
 }
-.quote > p{
-	padding-left: 15px;
-	font-weight:  bold;
-	line-height: 1.6; 
-	margin:8px 0 18px 20px;
-	font-family: sans-serif;
+.break{
+	text-align: center;
+	margin-left: 200px;
 }
-
-.quote > hr{
-	margin-top: 50px; 
-	width:150px;
+@media(max-width:480px){
+	.break{
+		margin: 0px;
+		margin-left: 30vw;
+	}
 }
 .download{
 	background-color: violet;
