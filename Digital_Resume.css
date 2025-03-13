@@ -120,7 +120,6 @@ img{
 	font-size: large;
 	font-family: sans-serif;
 	line-height: 1.5; 
-	
 }
 @media(max-width:480px){
 	.quote{
@@ -130,6 +129,7 @@ img{
 		margin-top: 20px;
 		padding: 20px;
 		margin-bottom: 0px;
+		width: 88vw;
 	}
 }
 .break{
