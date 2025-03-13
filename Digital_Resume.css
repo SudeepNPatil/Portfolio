@@ -293,12 +293,14 @@ h3{
 	background-color: rgb(209, 112, 204);;
 	box-shadow: 10px rgb(182, 30, 174);
 	margin-top: 0px;
+	color: black ;
 }
 @media(max-width:480px){
 	.Technology >button{
 		width: 50px;
 		height: 30px;
-		font-size:50%;
+		color: black ;
+		font-size: 1.8vw;
 	}
 }
 .Project > h4{
