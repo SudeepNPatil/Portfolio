@@ -66,6 +66,7 @@ footer{
 	opacity: 0.5;
 	padding-top: 50px;
 	font-size: 13px;
+	
 }
 
 @media (max-width : 480px){
@@ -86,7 +87,7 @@ footer{
 	justify-content: flex-start;	
 }
 .main-body >p{
-	margin:25px 0 0 0;
+	margin:35px 0 0 0;
 	line-height: 1.6;
 	padding-left: 13px;
 	
@@ -100,10 +101,10 @@ footer{
 		width: 90vw;
 	}
 }
-img{
+.main-body > img{
 	width:540px;
 	height:700px;
-	margin:50px 0 40px 0;
+	margin:50px auto 40px auto;
 }
 @media(max-width:480px){
 	img{
@@ -134,7 +135,7 @@ img{
 }
 .break{
 	text-align: center;
-	margin-left: 210px;
+	margin-left: 220px;
 	margin-bottom: 0px;
 }
 @media(max-width:480px){
@@ -222,17 +223,16 @@ h3{
 	}
 }
 .parent-wraper >hr{
-	border:top 2px; 
+	 
 	width:150px;
-	margin-bottom: 60px;
-	margin-top: 40px;
+	margin:30px auto 10px auto;
 }
-@media(max-width:480px){
+/* @media(max-width:480px){
 	.hr{
-		width: 100vw;
-		margin-left: 30vw;
+		/* width: 100vw;
+		margin:10px auto 10px auto; 
 	}
-}
+} */
 
 .Project{
 	background-color: whitesmoke;
@@ -245,6 +245,7 @@ h3{
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 	margin-left: 18px;
+	margin-top:35px;
 }
 @media(max-width:480px){
 	.Project{
