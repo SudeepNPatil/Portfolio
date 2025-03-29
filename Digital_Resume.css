@@ -109,9 +109,9 @@ footer{
 }
 @media(max-width:480px){
 	.main-body> img {
-		 width:auto; 
-		height:450px;
-		margin:50px auto 40px auto;
+		 
+		height:530px;
+		margin:50px 15px 40px 15px;
 	}
 }
 
