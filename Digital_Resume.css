@@ -64,7 +64,7 @@ footer{
 	margin:35px 0 0 0;
 	line-height: 1.6;
 	padding-left: 13px;
-	
+	font-size: large;
 }
 
 .main-body > img{
@@ -78,8 +78,8 @@ footer{
 	margin-top: 25px;
 	text-align: center;
 	font-weight: bolder;
-	font-size: large;
-	font-family: sans-serif;
+	font-size: larger;
+	/* font-family: sans-serif; */
 	line-height: 1.5; 
 }
 
