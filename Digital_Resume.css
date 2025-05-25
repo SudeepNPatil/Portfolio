@@ -67,6 +67,7 @@ footer{
 	opacity: 0.5;
 	padding-top: 50px;
 	font-size: 13px;
+	margin-bottom: 25px;
 	
 }
 
@@ -77,6 +78,7 @@ footer{
 		opacity: 0.5;
 		font-size: 13px;
 		padding-top: 50px;
+		margin-bottom: 25px;
 	}
 }
 
