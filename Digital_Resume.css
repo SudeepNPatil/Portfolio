@@ -64,7 +64,7 @@ footer{
 	margin:35px 0 0 0;
 	line-height: 1.6;
 	padding-left: 13px;
-	font-size: large;
+	font-size:larger;
 }
 
 .main-body > img{
@@ -141,7 +141,7 @@ footer{
 		width: 100vw;
 	}
 	.main-body > p{
-		margin: 12px 6vw;
+		margin: 12px 9vw;
 		line-height: 1.6;
 		padding-left: 0px;
 	}
