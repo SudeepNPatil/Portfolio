@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600");
+@import url("https://fonts.googleapis.com/css?family=Lato:700");
 
 
 body{
 	display:flex;
 	justify-content:center;
-	font-family: "Poppins",sans-serif;
+	font-family: "Crimson Text",sans-serif; 
 	margin: 0;
 	padding: 0;
 }
@@ -38,6 +40,7 @@ body{
 	font-weight:bold;
 	font-size:25px;
 	margin-right:10px;
+	
 }
 
 footer{
