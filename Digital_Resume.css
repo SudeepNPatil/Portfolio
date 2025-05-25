@@ -348,7 +348,7 @@ h3{
     padding: 30px;
     border-radius: 10px;
     width: 500px;
-	height: 500px;
+	height: auto;
 	margin: 0px;
     text-align: center;
 	position: relative;
@@ -361,28 +361,31 @@ h3{
 		height: auto;
 	}
 }
-.pop_petcare{
+.pop_img{
 	width: 450px;
 	height: 250px;
 	margin: 0px;
 	margin-top: 10px;
+	border: 1px solid whitesmoke;
 }
 @media(max-width:480px){
-	.pop_petcare{
+	.pop_img{
 		width: 68vw;
 		height: 45vw;
+		border: 1px solid white;
 	}
 }
 .popup-content > h4{
-	width: 200px;
+	width: fit-content;
 	padding: 0px;
 	margin-top: 10px;
 	margin-left: 22px;
 	margin-bottom: 0px;
+	
 }
 @media(max-width:480px){
 	.popup-content > h4{
-		width: 60vw;
+		width: fit-content;
 		margin-left: 0.5vw;
 	}
 }

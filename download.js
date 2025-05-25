@@ -1,31 +1,68 @@
+const Pro1 = document.getElementById('Pro1');
 
+Pro1.addEventListener('click', function some() {
 
-
-// Ensure JavaScript runs after DOM is loaded
-document.addEventListener("DOMContentLoaded", function some() {
-
-
-    // Select elements AFTER the page has loaded
     const popup = document.getElementById("popup");
     const closeBtn = document.getElementById("close-btn");
 
-    // Function to open popup
+    popup.style.display = "flex";
+    document.body.style.overflow = "hidden";
+
+    closeBtn.addEventListener("click", function closePopup() {
+        popup.style.display = "none";
+        document.body.style.overflow = "auto";
+    });
 
 
-    // Add event listener for close button (if it exists)
-    if (closeBtn) {
-        closeBtn.addEventListener("click", closePopup);
-    }
-
-    // Close popup when clicking outside
-    if (popup) {
-        popup.addEventListener("click", function (event) {
-            if (event.target === popup) {
-                closePopup();
-            }
-        });
-    }
-
-    // Attach openPopup() to the clickable div
-    document.querySelector(".Project").addEventListener("click", openPopup);
 });
+
+const Pro2 = document.getElementById('Pro2')
+
+Pro2.addEventListener('click', function some() {
+
+    const popup = document.getElementById("popup1");
+    const closeBtn = document.getElementById("close-btn1");
+
+    popup.style.display = "flex";
+    document.body.style.overflow = "hidden";
+
+    closeBtn.addEventListener("click", function closePopup() {
+        popup.style.display = "none";
+        document.body.style.overflow = "auto";
+    });
+
+})
+
+const Pro3 = document.getElementById('Pro3')
+
+Pro3.addEventListener('click', function some() {
+
+    const popup = document.getElementById("popup2");
+    const closeBtn = document.getElementById("close-btn2");
+
+    popup.style.display = "flex";
+    document.body.style.overflow = "hidden";
+
+    closeBtn.addEventListener("click", function closePopup() {
+        popup.style.display = "none";
+        document.body.style.overflow = "auto";
+    });
+
+})
+
+const Pro4 = document.getElementById('Pro4')
+
+Pro4.addEventListener('click', function some() {
+
+    const popup = document.getElementById("popup3");
+    const closeBtn = document.getElementById("close-btn3");
+
+    popup.style.display = "flex";
+    document.body.style.overflow = "hidden";
+
+    closeBtn.addEventListener("click", function closePopup() {
+        popup.style.display = "none";
+        document.body.style.overflow = "auto";
+    });
+
+})

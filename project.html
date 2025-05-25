@@ -35,7 +35,7 @@
 
 	    <hr class="hr">
 
-	    <div class="Project" onclick="openPopup()">
+	    <div class="Project" id="Pro1">
 			<img src="./Images/Pet_care_image.png" alt="Petcare_image" class="Project1">
 
 			<h4>Petcare web application</h3>
@@ -62,9 +62,9 @@
 			
 			<div class="popup-content">
 				
-				<span class="close-btn" id="close-btn" onclick="closePopup()">&times;</span>
+				<span class="close-btn" id="close-btn">&times;</span>
 				
-				<img src="./Images/Pet_care_image.png" alt="Petcare_image" class="pop_petcare">
+				<img src="./Images/Pet_care_image.png" alt="Petcare_image" class="pop_img">
 				
 				<h4>Petcare Web Application</h4>
 				
@@ -73,7 +73,7 @@
 				<p>
 					A web application that allows pet owners to book grooming services, 
 					track pet vaccination. It features a user-friendly multi-step booking form for a seamless experience.
-					 Users can select preferred dates and times for appointments.
+					Users can select preferred dates and times for appointments.
 					Built with React, TailwindCSS.it ensures a smooth and responsive interface.
 				</p>
 
@@ -85,7 +85,7 @@
 			</div>
 		</div>
 
-	    <div class="Project">
+	    <div class="Project" id="Pro2" >
 			<img src="./Images/Todo_list_image.png" alt="todo_app_image" class="Project1">
 
 			<h4>Todo List Web App</h4>
@@ -107,7 +107,31 @@
 
 	    </div>
 
-	    <div class="Project">
+		<div class="popup" id="popup1">
+			
+			<div class="popup-content">
+				
+				<span class="close-btn" id="close-btn1">&times;</span>
+				
+				<img src="./Images/Todo_list_image.png" alt="Todo_list_image" class="pop_img">
+				
+				<h4>Todo List Web App</h4>
+				
+				<h5>Description</h5>
+				
+				<p>
+					A simple and efficient task management web app that allows users to add, delete there task as there wish.
+				</p>
+
+				<a href="https://github.com/SudeepNPatil/TODO-LIST" class="View_code">View code</a>
+
+				<a href="https://todo-list-sudeep.netlify.app" class="Live_demo">Live Demo</a>
+
+				
+			</div>
+		</div>
+		
+	    <div class="Project" id="Pro3">
 
 			<img src="./Images/Github_image.png" alt="Github_app_image" class="Project1">
 
@@ -128,51 +152,93 @@
 				<button>Tailwindcss</button>
 
 			</div>
-
-
 	   </div>
+
+	   <div class="popup" id="popup2">
+			
+			<div class="popup-content">
+				
+				<span class="close-btn" id="close-btn2">&times;</span>
+				
+				<img src="./Images/Github_image.png" alt="Github_app_image" class="pop_img">
+				
+				<h4>GitHub Overview web app</h4>
+				
+				<h5>Description</h5>
+				
+				<p>
+					A web application that fetches and displays GitHub user profiles using the GitHub API. 
+				Users can search for any GitHub username to view details such as profile information,
+				 repositories, followers, and more.
+				</p>
+
+				<a href="https://github.com/SudeepNPatil/GitHub-Overview" class="View_code">View code</a>
+
+				<a href="https://github-overview-sudeep.netlify.app" class="Live_demo">Live Demo</a>
+
+			</div>
+		</div>
+
+		 <div class="Project" id="Pro4">
+
+			<img src="./Images/Autometic-fish-feeding.png" alt="Autometic-fish-feeding" class="Project1">
+
+			<h4>Autometic fish feeding</h4>
+
+			<p>
+				A web application where we display the fish feeding details and feeding status and water changeing status on the 
+				web by fetching the data from the server
+			</p>
+
+			<h5>Technology used</h5>
+				
+			<div class="Technology">
+
+				<button>JavaScript</button>
+				<button>React</button>
+				<button>Nodejs</button>
+				<button>micropython</button>
+				<button>Tailwindcss</button>
+
+			</div>
+	   </div>
+
+	    <div class="popup" id="popup3">
+			
+			<div class="popup-content">
+				
+				<span class="close-btn" id="close-btn3">&times;</span>
+				
+				<img src="./Images/Autometic-fish-feeding.png" alt="Autometic-fish-feeding" class="pop_img">
+				
+				<h4>Autometic fish feeding</h4>
+				
+				<h5>Description</h5>
+				
+				<p>
+					A web Application where we display the fish feeding status and we can schedule the fish feeding and we have 
+					section called water level monitoring where water level is displayed.
+
+					I used React for frotend to display the details and scheduling the feeding and water changing,
+					and i used the nodejs server using the Expressjs library to handle the request from the user 
+					and that request is forword to the esp32(Iot component) to share the data or scheduling the feeding 
+					and then the data is sent to nodjs server and then the response will send to frontend to display the details.
+
+				</p>
+
+				<a href="https://github.com/SudeepNPatil/Atometic_Fish_Feeding_using_IOT" class="View_code">View code</a>
+
+				<!-- <a href="https://github-overview-sudeep.netlify.app" class="Live_demo">Live Demo</a> -->
+
+			</div>
+		</div>
 	
 	   <footer>
 		@Sudeep
 	   </footer>
 	</div>
 
-
-	<script>
-		function openPopup() {
-        popup.style.display = "flex";
-		document.body.style.overflow = "hidden"; 
-    }
-
-    // Function to close popup
-    function closePopup() {
-        popup.style.display = "none";
-		document.body.style.overflow = "auto";
-    }
-	</script>
-
-
 	<script src="download.js" ></script>
 	</body>
 </html>
 
-
-
-<!-- <h4>Pet Care Assistant</h4>
-	<p>An Android app designed to help pet owners efficiently manage pet care routines and schedules.</p>
-	<h4>Key Features</h4>
-	<ul>
-		<li>Reminders for pet care tasks.</li>
-		<li>Store detailed pet profiles.</li>
-		<li>Vaccination tracking and vet appointment scheduling.</li>
-	</ul>
-	<h4>Technology used</h4>
-	<p>Android Studio | Java</p>
-	<img src="PetCare_HomePage.jpeg" alt="Home-screen" class="Project_images">
-	<p class="caption">Home Screen</p>
-	<img src="PetCare_feeding.jpeg" alt="Reminder-screen" class="Project_images">
-	<p class="caption">Reminder Screen</p>
-	<h4>Challenges & Learnings</h4>
-	<p>Developing this app helped me enhance my Android development skills, especially working with TimePickerDialog and Layout Managing.</p>
-
- -->
