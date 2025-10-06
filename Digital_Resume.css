@@ -84,6 +84,46 @@ footer {
   margin-bottom: 0px;
 }
 
+#skills {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0px 10px;
+  flex-wrap: wrap;
+}
+.wrap-skills {
+  padding: 8px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  transition: transform 0.4s ease-in-out;
+}
+.wrap-skills:hover {
+  transform: scale(1.03);
+  animation-duration: 500ms;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.wrap-skills > p {
+  padding: 0px;
+  margin: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.wrap-skills > img {
+  object-fit: contain;
+  width: 50px;
+}
+
 .download {
   background-color: violet;
   border-radius: 20px;
